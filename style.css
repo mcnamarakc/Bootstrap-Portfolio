@@ -1,0 +1,31 @@
+footer {
+    position: fixed;
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+    background-color: #B5B2C2;
+    border-top: 6px solid #232C33;
+    text-align: center;
+    padding-bottom: 25px;
+   }
+
+.navbar {
+    background-color: #232C33;
+    color: #DFF8EB;
+}
+
+body {
+    background-color: #DFF8EB;
+}
+
+.container {
+    background-color: #5A7D7C;
+    height: 100%;
+}
+h2 {
+    border-bottom: 3px solid #232C33;
+    margin: 20px;
+}
+.row {
+    margin-top: 8%;
+}
