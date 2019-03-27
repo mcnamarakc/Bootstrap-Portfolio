@@ -21,11 +21,17 @@ body {
 .container {
     background-color: #5A7D7C;
     height: 100%;
+    margin-bottom: 30px;
 }
 h2 {
     border-bottom: 3px solid #232C33;
-    margin: 20px;
+    margin-top: 20px;
 }
 .row {
     margin-top: 8%;
+    height: 15%
 }
+.fas{
+    color: #A0C1D1;
+}
+ 
