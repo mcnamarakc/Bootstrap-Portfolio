@@ -34,4 +34,10 @@ h2 {
 .fas{
     color: #A0C1D1;
 }
- 
+.img-thumbnail{
+    height: 250px;
+    width: 250px;
+}
+a{
+    color: #EFAD8B
+}
