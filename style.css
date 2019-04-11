@@ -35,7 +35,7 @@ h2 {
 .img-thumbnail{
     height: 250px;
     width: 250px;
-    
+    margin: auto;  /* Magic! */    
     
 }
 a{
@@ -55,9 +55,9 @@ h3 {
     padding: 10px;
     padding-top: 0px;
 }
-/* .imgAlign{
-    margin: 0 auto;
-} */
+.imgAlign{
+    display: flex;
+}
 /* .imgCenterMod {
     display: flex;
     justify-content: center;
