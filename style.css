@@ -8,16 +8,13 @@ footer {
     text-align: center;
     padding-bottom: 25px;
    }
-
 .navbar {
     background-color: #232C33;
     color: #DFF8EB;
 }
-
 body {
     background-color: #DFF8EB;
 }
-
 .container {
     background-color: #5A7D7C;
     height: 100%;
@@ -39,6 +36,7 @@ h2 {
     height: 250px;
     width: 250px;
     
+    
 }
 a{
     color: #EFAD8B
@@ -47,17 +45,30 @@ a{
     margin: 5%;
 }
 #profPic, #profContent{
-    margin: 15px;
-    
+    margin: 15px;    
 }
+h3 {
+    text-align: center;
+}
+#containerMod {
+    margin-bottom: 65px;
+    padding: 10px;
+    padding-top: 0px;
+}
+/* .imgAlign{
+    margin: 0 auto;
+} */
+/* .imgCenterMod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
 @media screen and (max-width: 576px) {
     .container{
         max-width: 90%;
         margin-bottom: 50px;
         padding-left: 13px;
-    }
-    h3 {
-        text-align: center;
     }
     #profPic, #profContent{
         margin-left: 0px;
@@ -65,12 +76,24 @@ a{
     h2 {
         text-align: center;
     }
-    /* img {
-        need to align portfolio images to center
-    } */
 }
-/* @media (max-width: 768px) { 
-    .container{
-        max-width: 90%;
-    }
-} */
+@media (max-width: 768px) { 
+    #contactRow2 {
+        margin-top: 2%;
+    }    
+}
+@media (max-width: 991.98px) { 
+    #contactRow2 {
+        margin-top: 2%;
+    }    
+}
+@media (max-width: 1199.98px) {
+    #contactRow2 {
+        margin-top: 2%;
+    }    
+}
+@media (max-width: 2560px) {
+    #contactRow2 {
+        margin-top: 2%;
+    }    
+}
