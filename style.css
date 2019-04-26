@@ -58,12 +58,20 @@ h3 {
 .imgAlign{
     display: flex;
 }
+#profPic{
+    height: 85%;
+    width: 85%;
+    /* border-width: 2px;
+    border-color: #B5B2C2; */
+    /* margin: auto; */
+}
 /* .imgCenterMod {
     display: flex;
     justify-content: center;
     align-items: center;
 
 } */
+
 @media screen and (max-width: 576px) {
     .container{
         max-width: 90%;
