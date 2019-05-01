@@ -71,6 +71,10 @@ h3 {
     align-items: center;
 
 } */
+#gif{
+    height: 268px;
+    width: 1114px;
+}
 
 @media screen and (max-width: 576px) {
     .container{
