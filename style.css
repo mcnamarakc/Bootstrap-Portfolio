@@ -34,6 +34,7 @@ h2 {
     height: 10rem;
     width: 100%;
     overflow-y: scroll;
+    padding: 1%;
 }
 .row {
     margin-top: 5%;
@@ -55,7 +56,7 @@ a{
     margin: 5%;
 }
 #profPic, #profContent{
-    margin: 15px;    
+    margin: auto;    
 }
 h3 {
     text-align: center;
@@ -67,6 +68,11 @@ h3 {
 }
 .imgAlign{
     display: flex;
+}
+
+.LI-profile-badge {
+    margin: auto;
+    margin-bottom: 5%;
 }
 #profPic{
     height: 95%;
