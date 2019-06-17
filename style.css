@@ -25,8 +25,18 @@ h2 {
     border-bottom: 3px solid #232C33;
     margin-top: 20px;
 }
+
+.aboutHeader {
+    font-size: 1.25rem;
+    align-content: center;
+}
+.aboutContent {
+    height: 10rem;
+    width: 100%;
+    overflow-y: scroll;
+}
 .row {
-    margin-top: 8%;
+    margin-top: 5%;
     height: 15%
 }
 .fas{
@@ -59,8 +69,8 @@ h3 {
     display: flex;
 }
 #profPic{
-    height: 85%;
-    width: 85%;
+    height: 95%;
+    width: 95%;
     /* border-width: 2px;
     border-color: #B5B2C2; */
     /* margin: auto; */
@@ -74,6 +84,18 @@ h3 {
 #gif{
     height: 268px;
     width: 1114px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #343a40;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 12px;
+    background-color: #B5B2C2;
+    border-radius: 25px;
 }
 
 @media screen and (max-width: 576px) {
